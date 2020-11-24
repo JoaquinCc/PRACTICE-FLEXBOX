@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.menu{
+background: black;
+display: flex;
+height: 60px;
+justify-content: flex-end;
+padding: 0px 80px;
+margin: auto;
+}
+.indices{
+    color: white;
+    margin: 25px;
+    height: 30px;
+    font-family: monospace;
+    font-size: 15px;
+}
+.principal{
+    display: flex;
+    width: 80%;
+    margin: 80px auto ;
+}
+.img1 img{
+    height: 320px;
+    width: 560px;
+}
+.lateral{
+    margin: auto 30px;
+}
+.lateral p {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fila{
+    margin: 10px auto;
+    display: flex;
+    width: 50%;
+
+}
+.circulo{
+    height: 20px;
+    width: 20px;
+    background: rgb(78, 78, 78);
+    border:1px solid black;
+    border-radius: 6em;
+    margin: 30px;
+
+}
+.contenedor{
+    width: 80%;
+    display: flex;
+    margin: 50px auto;
+
+}
+.contenido1{
+color: black;
+font-size: 25px;
+width: 50%;
+font-family: monospace
+}
+.contenido2{
+color: rgb(112, 112, 112);
+font-size: 15px;
+margin: 0px auto;
+width: 50%;
+font-family: monospace
+}
+.contentcards{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 1200px;
+}
+.cards{
+    border: 3px solid black;
+    width: 300px;
+    height: 370px;
+}
+.cards img{
+    width: 300px;
+    height: 180px;
+    margin: 5px auto;
+   
+}
+.cards p{
+font-size: 30px;
+font-family: monospace;
+margin: 0px 25px;
+}
+.puntaje{
+    margin: 0px 15px;
+    width: 70%;
+    display: flex;
+}
+.circulo1{
+    background-color: rgb(255, 187, 0);
+border: 1px solid black;
+width: 18px;
+height: 18px;
+border-radius: 6em;
+margin: 10px;
+}
+.circulo2{
+background-color: white;
+    border: 1px solid black;
+    width: 18px;
+    height: 18px;
+    border-radius: 6em;
+    margin: 10px;
+}
+.comprar{
+    color: white;
+    background-color: black;
+    width: 70%;
+    border-radius: 3em;
+    margin: 5px auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.cp{
+    margin: auto;
+    font-size: 25px;
+    font-family: monospace;
+}
+.pie  {
+   background-color: black; 
+   width: 100%;
+color: white;
+display: flex;
+    justify-content: center;
+}
